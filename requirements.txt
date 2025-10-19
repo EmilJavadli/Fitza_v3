@@ -5,3 +5,4 @@ pathlib
 landingai_ade
 pandas
 numpy
+google-generativeai
