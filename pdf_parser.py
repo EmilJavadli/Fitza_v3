@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 from landingai_ade import LandingAIADE, APIConnectionError, RateLimitError
 import landingai_ade
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import streamlit as st
 from functools import lru_cache
 
