@@ -1,0 +1,7 @@
+streamlit
+dotenv
+tempfile
+pathlib
+landingai_ade
+pandas
+numpy
