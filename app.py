@@ -18,7 +18,7 @@ if uploaded_file:
             tmp_file.write(uploaded_file.read())
             tmp_path = tmp_file.name
 
-        with st.spinner("Parsing PDF..."):
+        with st.spinner("Reading PDF file content..."):
             pdf_text = pdf_parser_func(tmp_path)
 
         # Update session state
