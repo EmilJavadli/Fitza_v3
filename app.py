@@ -26,14 +26,14 @@ if uploaded_file:
         st.session_state.last_uploaded = uploaded_file.name
         st.session_state.chat_history = []  # reset chat when new PDF uploaded
 
-        st.success("PDF parsed successfully!")
+        # st.success("PDF parsed successfully!")
 
     pdf_text = st.session_state.pdf_text
 
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
 
-    user_input = st.chat_input("Ask something about the PDF...")
+    user_input = st.chat_input("Ask your questions about the file content...")
 
     if user_input:
         st.session_state.chat_history.append({"role": "user", "content": user_input})
